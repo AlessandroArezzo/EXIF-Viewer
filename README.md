@@ -24,3 +24,13 @@ L'elaborato è stato implementato in linguaggio Python utilizzando le librerie P
 Di queste due risulta molto importante la prima, attraverso la quale è stata definita l'interfaccia dell'applicazione.
 
 </ul>
+
+<h2>Implementazione</h2>
+L'applicazione fa uso della tecnica Model-View-Controller che prevede di dividere il codice che definisce l'interfaccia utente da quello che accede ai modelli.<br>
+Il progetto si compone nello specifico di tre moduli principali:
+<ul>
+    <li>ExifView: definisce l'oggetto relativo all'unica finestra prevista dall'applicazione. La classe definita all'interno del file fa uso delle classi 
+    implementate in ExifWidgets, le quali si occupano di definire i singoli oggetti che compongono la schermata principale. Per l'implementazione dell'interfaccia è stata usata la libreria PyQt5.</li>
+    <li>ExifModel: contiene la classe che tiene traccia dei dati memorizzati dall'applicazione, dove questi consistono nelle immagini appartenenti alla coda, nell'indice di quella correntemente selezionata e nei suoi metadati (info ed EXIF). </li>
+    <li>ExifController: si occupa di fare da ponte tra la vista ed il modello, consentendo di accedere a quest'ultimo ogni qualvolta l'utente interagisce on la schermata.</li>
+</ul>
