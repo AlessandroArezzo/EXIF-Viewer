@@ -101,7 +101,6 @@ class ExifModel:
             self.current_info['Image size'] = image.size
             self.current_info['Creation date'] = time.ctime(os.path.getctime(image.filename))
             self.current_info['Modification date'] = time.ctime(os.path.getmtime(image.filename))
-            # self.current_info['file_size'] = size(os.stat(image.filename).st_size) + " (%5d bytes)" % os.stat(image.filename).st_size
 
     def __extract_current_exif(self):
         """
