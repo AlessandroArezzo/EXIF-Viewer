@@ -29,7 +29,7 @@ Nello specifico le dipendenze del progetto sono le seguenti:
     <li><b>Qdarkstyle</b>: v.2.8.1</li>
 </ul>
 La librerie PyQt5 e Pillow sono state utilizzate rispettivamente per definire l'interfaccia dell'applicazione e per leggere il contenuto delle immagini da file.
-La libreria Qdarkstyle invece è opzionale ed il suo utilizzo permette di definire la schermata col tema dark attivo, così come è mostrata nella figura d'esempio sopra riportata.
+La libreria Qdarkstyle invece permette di definire la schermata col tema dark attivo, così come è mostrata nella figura d'esempio sopra riportata.
 
 <h2>Come eseguire</h2>
 Per lanciare l'applicazione è sufficiente:
